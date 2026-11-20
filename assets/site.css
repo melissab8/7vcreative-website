@@ -101,6 +101,7 @@ h1,h2,h3{font-family:var(--head)}
 .about p{margin:12px 0 24px;color:var(--muted);line-height:1.7}
 .about .direct{display:flex;flex-direction:column;gap:8px}
 .about .direct a{color:var(--text);text-decoration:none}
+.about .direct span{color:var(--text)}.about .direct span a{color:var(--teal);text-decoration:underline}
 .about .direct a:hover{color:var(--teal)}
 .form{flex:1 1 440px;min-width:0;background:var(--panel);border:1px solid var(--line2);border-radius:28px;padding:36px;display:grid;gap:16px}
 .form h3{margin:0;font-size:26px}
