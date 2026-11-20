@@ -1,0 +1,5 @@
+body{margin:0;background:#120a14}
+a{color:#49baab}a:hover{color:#7fd6cb}
+html{scroll-behavior:smooth}
+img,video{max-width:100%}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
