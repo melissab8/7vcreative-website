@@ -128,3 +128,11 @@ h1,h2,h3{font-family:var(--head)}
 .site-foot a{color:var(--muted)}
 .site-foot span{display:flex;flex-wrap:wrap;gap:8px 20px}
 @media (max-width:640px){.brand img{width:60px;height:60px}.form,.guide{padding:28px}}
+
+/* why AI */
+.why{display:flex;flex-wrap:wrap;gap:48px;align-items:center}
+.why-copy{flex:1 1 520px;min-width:0}
+.why-copy p{margin:20px 0 0;font-size:18px;line-height:1.7;color:var(--muted);max-width:620px}
+.why-points{flex:1 1 380px;min-width:0;list-style:none;margin:0;padding:0;display:grid;gap:16px}
+.why-points li{background:var(--panel);border:1px solid var(--line2);border-radius:20px;padding:24px 28px;color:var(--muted);line-height:1.6}
+.why-points strong{display:block;color:var(--text);font-family:var(--head);font-size:20px;margin-bottom:4px}
